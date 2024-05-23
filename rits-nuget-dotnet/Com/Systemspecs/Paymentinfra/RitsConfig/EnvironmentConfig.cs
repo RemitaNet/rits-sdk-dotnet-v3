@@ -7,7 +7,7 @@ namespace RemitaRITsGateway.Com.Systemspecs.Paymentinfra.RitsConfig
 {
     class EnvironmentConfig
     {
-        public static string TEST = "https://remitademo.net/remita/exapp/api/v1/send/api/";
+        public static string TEST = "https://demo.remita.net/remita/exapp/api/v1/send/api/";
         public static string PRODUCTION = "https://login.remita.net/remita/exapp/api/v1/send/api/";
         public static string GENERATE_TOKEN = "uaasvc/uaa/token";
         public static string ACCOUNT_ENQUIRY = "rpgsvc/v3/rpg/account/lookup";
